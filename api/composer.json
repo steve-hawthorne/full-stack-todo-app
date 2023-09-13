@@ -1,0 +1,20 @@
+{
+    "name": "yohten/api",
+    "description": "simple php rest api",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yohten\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Steve Hawthorne",
+            "email": "steve.hawthorne@outlook.de"
+        }
+    ]
+}
